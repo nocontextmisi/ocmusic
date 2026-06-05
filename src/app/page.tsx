@@ -300,7 +300,7 @@ export default function Home() {
         <header className="overflow-hidden rounded-[28px] border-2 border-pink-200 bg-white/86 shadow-kawaii backdrop-blur">
           <div className="checker flex flex-col gap-5 px-5 py-6 sm:px-8 lg:flex-row lg:items-end lg:justify-between">
             <div>
-              <p className="text-sm font-black uppercase tracking-[0.28em] text-pink-500">Oshi Tune Card Studio</p>
+              <p className="text-sm font-black uppercase tracking-[0.28em] text-pink-500">OC Setlist</p>
               <h1 className="mt-3 text-3xl font-black text-[#241d3f] sm:text-5xl">OC 세트리스트</h1>
               <p className="mt-3 max-w-2xl text-sm font-semibold leading-6 text-[#56607d] sm:text-base">
                 테마곡이나 어울리는 곡들을 추천합시다...ദ്ദി ՞• ·̫ •՞ ꒱
