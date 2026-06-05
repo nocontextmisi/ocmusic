@@ -243,7 +243,7 @@ async function exportCards(cards: SongCard[]) {
 
     ctx.fillStyle = "#ff4f95";
     ctx.font = "700 24px Arial";
-    ctx.fillText(`#${String(index + 1).padStart(2, "0")}  推し TUNE`, 552, cardY + 60);
+    ctx.fillText(`#${String(index + 1).padStart(2, "0")}  NOW PLAYING...`, 552, cardY + 60);
 
     ctx.fillStyle = "#241d3f";
     ctx.font = "800 48px Arial";
