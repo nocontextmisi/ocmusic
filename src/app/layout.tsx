@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Oshi Tune Card Studio",
-  description: "YouTube URL로 오타쿠 감성 곡 카드를 만드는 웹앱"
+  title: "OC Setlist",
+  description: "내가 만든 집에서 모두 함께 주박을 합시다"
 };
 
 export default function RootLayout({
