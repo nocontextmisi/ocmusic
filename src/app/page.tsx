@@ -301,9 +301,9 @@ export default function Home() {
           <div className="checker flex flex-col gap-5 px-5 py-6 sm:px-8 lg:flex-row lg:items-end lg:justify-between">
             <div>
               <p className="text-sm font-black uppercase tracking-[0.28em] text-pink-500">Oshi Tune Card Studio</p>
-              <h1 className="mt-3 text-3xl font-black text-[#241d3f] sm:text-5xl">YouTube 곡 카드 메이커</h1>
+              <h1 className="mt-3 text-3xl font-black text-[#241d3f] sm:text-5xl">OC 세트리스트</h1>
               <p className="mt-3 max-w-2xl text-sm font-semibold leading-6 text-[#56607d] sm:text-base">
-                URL을 넣으면 videoId와 썸네일이 자동으로 잡히고, 캐릭터 이미지와 코멘트를 더해 한 장의 PNG로 저장할 수 있어요.
+                테마곡이나 어울리는 곡들을 추천합시다...ദ്ദി ՞• ·̫ •՞ ꒱
               </p>
             </div>
             <button
@@ -419,7 +419,7 @@ export default function Home() {
                       <span className="text-sm font-black text-[#38405f]">코멘트</span>
                       <textarea
                         className="min-h-28 resize-y rounded-2xl border-2 border-pink-100 bg-white px-4 py-3 font-semibold leading-6 outline-none transition focus:border-pink-400"
-                        placeholder="이 곡에 대한 감상, 추천 포인트, 오시 포인트..."
+                        placeholder="이 곡에 대한 감상, 추천 포인트, 가사 등..."
                         value={card.comment}
                         onChange={(event) => updateCard(card.id, { comment: event.target.value })}
                       />
