@@ -243,7 +243,7 @@ async function exportCards(cards: SongCard[]) {
 
     ctx.fillStyle = "#ff4f95";
     ctx.font = "700 24px Arial";
-    ctx.fillText(`#${String(index + 1).padStart(2, "0")}  NOW PLAYING...`, 552, cardY + 60);
+    ctx.fillText(`#${String(index + 1).padStart(2, "0")}  NOW PLAYING♪`, 552, cardY + 60);
 
     ctx.fillStyle = "#241d3f";
     ctx.font = "800 48px Arial";
@@ -459,7 +459,7 @@ export default function Home() {
                       )}
                     </div>
                     <div className="p-4">
-                      <p className="text-xs font-black uppercase tracking-[0.18em] text-pink-500">NOW PLAYING... #{index + 1}</p>
+                      <p className="text-xs font-black uppercase tracking-[0.18em] text-pink-500">NOW PLAYING♪ #{index + 1}</p>
                       <h3 className="mt-2 break-words text-xl font-black text-[#241d3f]">{card.title || "Untitled Song"}</h3>
                       <p className="mt-1 break-words text-sm font-bold text-[#56607d]">{card.artist || "Artist"}</p>
                       {card.characters.length > 0 && (
